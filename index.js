@@ -26,7 +26,7 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.on("ready", () => {
-    client.user.setActivity("Trwają pracę nad Paczką", {type: "STREAMING"})
+    client.user.setActivity("Trwają pracę nad Paczką", {type: "WATCHING"})
     client.user.setStatus('dnd', 'Made by .EXE') 
 
     // Alternatively, you can set the activity to any of the following:
